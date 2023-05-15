@@ -10,7 +10,12 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h5 {
+ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+
+h1, h4, h5 {
     font-family: 'Francois One', sans-serif;
 }
 
@@ -62,6 +67,28 @@ h1, h5 {
     margin: 10px;
 }
 
+/*New footer*/
+
+/**/
+
+.row {
+    color: #fff;
+}
+
+.row img {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.links {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+  }
+
 /*Emily home*/
 
 .imghome {
@@ -69,7 +96,6 @@ h1, h5 {
     margin-left: auto;
     margin-right: 100px;
     width: 100%;
-    border-radius: 10px;
     max-width: 600px;
 }
 
@@ -86,7 +112,6 @@ h1, h5 {
     display: flex;
     flex-direction: row;
     margin: 15px;
-    border-radius: 15px;
     align-items: center;
 }
 
@@ -121,7 +146,7 @@ h1, h5 {
     justify-content: center;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     #box {
         display: flex;
         flex-direction: column;
@@ -135,7 +160,13 @@ h1, h5 {
         flex-direction: column;
         justify-content: center;
     }
+    .header {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
 }
+
 
 .container {
     height: 100%;
