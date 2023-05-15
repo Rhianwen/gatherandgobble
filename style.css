@@ -1,45 +1,62 @@
 .body {
     background-color: #F3EBB6;
 }
+
 .homepagebg {
     background-color: #165634;
 }
+
 p {
     font-family: 'Lato', sans-serif;
 }
-h1, h5 {
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+
+h1, h4, h5 {
     font-family: 'Francois One', sans-serif;
 }
+
 .homeh1 {
     color: #FFF;
     text-align: center;
 }
+
 .homep {
     color: #FFF;
     text-align: center;
 }
+
 .header {
     margin-right: 300px;
     margin-left: 300px;
 }
+
 .navbar-nav > li{
     padding-left:55px;
     padding-right:55px;
  }
+
 .navbar, .foot {
     background-color: #165634;
  }
+
 #button-addon1 {
     background-color: #F4524D;
     border-color: #A82925;
  }
+
 .nav-item, .navbar-light, .nav-link, .foot{
     color: #FFF !important;
 }
+
 .button-container {
     display: flex;
     justify-content: center;
 }
+
 .subscribe-button {
     text-align: center;
     border-radius: 5px;
@@ -49,20 +66,45 @@ h1, h5 {
     padding: 10px;
     margin: 10px;
 }
+
+/*New footer*/
+
+/**/
+
+.row {
+    color: #fff;
+}
+
+.row img {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.links {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+  }
+
 /*Emily home*/
+
 .imghome {
     display: inline;
     margin-left: auto;
     margin-right: 100px;
     width: 100%;
-    border-radius: 10px;
     max-width: 600px;
 }
+
 .homecar {
     text-align: center;
     padding: 3%;
     max-width: 800px;
 }
+
 .boxhome {
     background-color: hsl(0, 0%, 100%);
     width: auto;
@@ -70,10 +112,11 @@ h1, h5 {
     display: flex;
     flex-direction: row;
     margin: 15px;
-    border-radius: 15px;
     align-items: center;
 }
+
 /*How to guide code*/
+
 .imgblog {
     display: inline;
     margin-left: auto;
@@ -82,11 +125,13 @@ h1, h5 {
     border-radius: 10px;
     max-width: 300px;
 }
+
 .blogtxt {
  text-align: center;
  padding: 3%;
  max-width: 800px;
 }
+
 #box {
     background-color: hsl(0, 0%, 100%);
     width: auto;
@@ -100,7 +145,8 @@ h1, h5 {
     align-items: center;
     justify-content: center;
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 800px) {
     #box {
         display: flex;
         flex-direction: column;
@@ -114,14 +160,22 @@ h1, h5 {
         flex-direction: column;
         justify-content: center;
     }
+    .header {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
 }
+
+
 .container {
     height: 100%;
     padding: 0;
     margin: 0;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
 }
+
 /*How to guide END*/
 
 /*RECIPES CODE*/
@@ -144,7 +198,7 @@ h1, h5 {
     padding: 0px, 20px, 20px, 20px;
     box-sizing: border-box;
   }
-  
+
   .recipesbox {
     position: relative;
     max-width: 400px;
@@ -152,7 +206,7 @@ h1, h5 {
     overflow: hidden;
     background-color: #fff;
   }
-  
+
   .recipesbox img {
     display: block;
      width: 100%;
@@ -162,12 +216,12 @@ h1, h5 {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
      transition: all 0.2s ease;
   }
-  
+
   .recipesbox:hover img {
     transform: scale(1.1);
     opacity: 0.7;
   }
-  
+
   .recipesbox .recipesmiddle {
     opacity: 0; /* hiding the .middle */
     position: absolute;
@@ -178,12 +232,12 @@ h1, h5 {
     text-align: center;
     transition: .5s ease;
   }    
-  
+
   /* middle appears when box is hovered over */
   .recipesbox:hover .recipesmiddle {
     opacity: 1;
   }
-  
+
   /* the following two can be combined in some way. Need to check text of homepage */ 
   .recipesbox a {
       display: block;
@@ -192,33 +246,34 @@ h1, h5 {
       font-weight: bold;
       text-decoration: none;
   }
-  
+
   .recipestext {
     background-color: #165634;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
   }
-  
+
   /* Mobile */
   @media (min-width: 768px) {
       .recipesbox {
           flex-basis: calc(50% - 10px);
       }
   }
-  
+
   /* Half-desktop */
   @media (min-width: 768px) and (max-width: 1200px) {
     .recipesbox {
       flex-basis: calc(33.33% - 10px);
     }
   }
-  
+
   /* Full-desktop */
   @media (min-width: 1201px) {
     .recipesbox {
       flex-basis: calc(25% - 10px);
     }
   }
-
+ 
+ 
   /* END OF RECIPES CODE*/
