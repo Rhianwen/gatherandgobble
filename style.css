@@ -56,6 +56,10 @@ h1, h4, h5 {
     color: #FFF !important;
 }
 
+.nav-link:hover {
+    transform: scale(1.1);
+  }
+
 .button-container {
     display: flex;
     justify-content: center;
