@@ -67,9 +67,7 @@ h1, h4, h5 {
     margin: 10px;
 }
 
-/*New footer*/
-
-/**/
+/*Footer*/
 
 .row {
     color: #fff;
@@ -80,16 +78,27 @@ h1, h4, h5 {
     margin-bottom: 20px;
 }
 
-.links {
-    width: auto;
-    height: auto;
+.sub {
     display: flex;
-    flex-direction: row;
-    padding: 0px;
-    align-items: center;
-  }
+    justify-content: center;
+    text-align: center;
+}
 
-/*Emily home*/
+footer {
+    background: #165634;
+}
+
+footer a {
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 800px) {
+footer ul {
+    text-align: center;
+}
+}
+
+/*Homepage*/
 
 .imghome {
     display: inline;
