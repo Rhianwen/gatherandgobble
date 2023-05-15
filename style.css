@@ -187,6 +187,14 @@ footer ul {
 
 /*How to guide END*/
 
+/*Coming soon*/	
+.imgc {	
+    display: block;	
+    margin-left: auto;	
+    margin-right: auto;	
+    width: 150px;	
+}
+
 /*RECIPES CODE*/
 
 .recipesheader {
