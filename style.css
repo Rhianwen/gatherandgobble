@@ -10,6 +10,10 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+hr {
+    border-top: 1px solid #fff !important;
+}
+
 ul {
     padding-left: 0px;
     list-style: none;
