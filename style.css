@@ -306,7 +306,6 @@ footer ul {
     opacity: 1;
   }
 
-  /* the following two can be combined in some way. Need to check text of homepage */ 
   .recipesbox a {
       display: block;
       text-align: center;
@@ -346,6 +345,13 @@ footer ul {
   /* END OF RECIPES CODE*/
 
 /* START OF SHOP CODE*/
+.shopheader {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
 /*Start of Carousel format*/
 .carouselbox {
     background-color:white;
