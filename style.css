@@ -17,7 +17,7 @@ hr {
 ul {
     padding-left: 0px;
     list-style: none;
-  }d
+  }
 
 h1, h4, h5 {
     font-family: 'Francois One', sans-serif;
@@ -69,11 +69,44 @@ h1, h4, h5 {
     text-align: center;
     border-radius: 5px;
     background-color: #F4524D;
-    color: #F3EBB6;
+    color: #fff;
     border: 1px solid #A82925;
     padding: 10px;
     margin: 10px;
 }
+
+.button-container a:hover { 
+    text-shadow: 0 0 5px #fff !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe-button a:hover {
+margin-left: 10px;
+}
+
+/*mobile*/
+
+@media (max-width: 991.98px) {
+  
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      display: block;
+    }
+  }
+
 /*END OF HOMEPAGE/GENERAL CSS*/
 
 /*Footer CSS*/
@@ -112,25 +145,34 @@ footer ul {
 .imghome {
     display: inline;
     margin-left: auto;
-    margin-right: 100px;
     width: 100%;
     max-width: 600px;
+    min-width: 550px;
 }
 
 .homecar {
     text-align: center;
     padding: 3%;
     max-width: 800px;
+    position:relative;
 }
 
 .boxhome {
-    background-color: hsl(0, 0%, 100%);
     width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
     margin: 15px;
     align-items: center;
+}
+
+/*About us*/
+
+.imgc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
 }
 
 /*How to guide code*/
@@ -358,7 +400,7 @@ h3 {
 a {
     text-decoration: none;
 }
-img {
+simg {
     opacity: 0.98;
 }
 .shoph4, .shopp {
