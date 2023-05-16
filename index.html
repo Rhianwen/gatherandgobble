@@ -18,8 +18,8 @@
 <!--NAV BAR START-->
 <nav class="navbar navbar-expand-lg d-flex justify-content-lg-between navbar-light">
   <a href="./index.html"> <img src="./img/ggicon.PNG" width="60px" alt="gather & gobble logo small"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" onclick="myFunction()"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav justify-content-around w-100">
@@ -36,7 +36,7 @@
         <a class="nav-link" href="#">News and Events</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="./shop.html">Shop</a>
       </li>
     </ul>
     <div class="justify-content-end">
@@ -66,17 +66,18 @@
 
 <!-- Right DIV-->
   <div class="homecar"></div>
+<--LEFT VIDEO START-->
 
-<!-- CAROUSEL TO GO HERE -->
-        <h1 style="color:red;">DIV FOR CAROUSEL</h1>      
-<!-- CAROUSEL END -->
-
+<video class="embed-responsive embed-responsive-16by9" controls autoplay muted>
+  <source src="./video/trees-12687.mp4" type="video/mp4">
+</video>
+<--LEFT VIDEO END-->
       </div>
 <!--Right DIV END-->
     </div>
 <!--Header Container END-->
 
-
+<!--MAIN BODY-->
 <div class="header">
     <h1 class="homeh1">Welcome to Gather & Gobble</h1>
 <p class="homep">Your ultimate guide to foraging and cooking wild foods in South Wales. Whether you're a seasoned forager or a curious beginner, we hope to help you connect with the natural abundance of plants, fungi, and other wild edibles that grow throughout the region.</p><br>
@@ -89,7 +90,7 @@
     </div>
 </h3> <br>
 <hr>
-<!--footer start-->
+<!--FOOTER START-->
 <footer>
 <div class="container">
   <div class="row">
@@ -125,10 +126,12 @@
 </div>
 </footer>
 
-
-<!--footer end-->
+<!--FOOTER END-->
 
 <script src="script.js"></script>
 </body>
+    
+    
+<!--BODY END-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </html>
