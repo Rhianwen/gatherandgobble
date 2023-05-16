@@ -302,3 +302,70 @@ footer ul {
   }
  
   /* END OF RECIPES CODE*/
+
+/* START OF SHOP CODE*/
+/*Start of Carousel format*/
+.carouselbox {
+    background-color:white;
+}
+.container-md {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 25px;
+    margin: 2.1%;
+}
+.carousel {
+    width:350px;
+    height:450px;
+  }
+.carousel-item {
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+}
+.carousel-control-prev {
+    border: 2px;
+    background-color: #165634;
+    border-radius: 5px;
+}
+.carousel-control-next {
+    border: 2px;
+    background-color: #165634;
+    border-radius: 5px;
+}
+#carouselExampleCaptions {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#carouselExampleCaptions2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#carouselExampleCaptions3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#carouselExampleCaptions4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3 {
+    color: #165634;;
+    align-items: center;    
+    padding-left: 22%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    opacity: 0.98;
+}
+.shoph4, .shopp {
+    color: #165634;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+/*End of Carousel format*/
+/*END OF SHOP CODE*/
