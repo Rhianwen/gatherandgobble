@@ -221,6 +221,14 @@ footer ul {
         margin-left: 15px;
     }
     
+     .imghome {
+        display: inline;
+        margin-left: auto;
+        width: 100%;
+        max-width: 600px;
+        min-width: 50px;
+    }
+    
 }
 
 
